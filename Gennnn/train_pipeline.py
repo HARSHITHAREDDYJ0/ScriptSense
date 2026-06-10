@@ -50,7 +50,7 @@ def parse_args():
 def banner():
     console.print("""
 [bold cyan]╔══════════════════════════════════════════════════════╗
-║   🔤 Indic Language Identification Training Pipeline   ║
+║   Indic Language Identification Training Pipeline   ║
 ║   Dataset: AI4Bharat/Pralekha (12 Indic + English)    ║
 ╚══════════════════════════════════════════════════════╝[/bold cyan]
 """)

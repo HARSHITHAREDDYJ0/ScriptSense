@@ -62,10 +62,7 @@ class LanguageInfo:
         cp = ord(char)
         return any(lo <= cp <= hi for lo, hi in self.unicode_ranges)
 
-
-# ─────────────────────────────────────────────
 # Language Registry (12 Indic + English)
-# ─────────────────────────────────────────────
 LANGUAGE_REGISTRY: Dict[str, LanguageInfo] = {
     "ben": LanguageInfo(
         code="ben", name="Bengali", script="Bengali",

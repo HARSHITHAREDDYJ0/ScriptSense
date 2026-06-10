@@ -68,16 +68,14 @@ python scripts/evaluate.py --split test
 - **Interactive dashboard**: Gradio-powered web UI
 
 ---
-
 ## Future Enhancements
 
-- Add support for code-mixed language identification (e.g., Hinglish, Tanglish).
+- Added support for code-mixed language identification (e.g., Hinglish, Tanglish).
 - Expand coverage to additional Indian languages and dialects.
 - Integrate speech-to-text preprocessing for spoken language analysis.
 - Support real-time inference through WebSocket endpoints.
-- Add model quantization for edge-device deployment.
 - Implement active learning for continuous dataset improvement.
 - Provide explainable AI outputs for prediction transparency.
 - Add OCR integration for image-based language detection.
-- Benchmark against additional multilingual transformer models.
+- Benchmark against any additional multilingual transformer models.
 - Deploy a public demo with monitoring and analytics dashboards.

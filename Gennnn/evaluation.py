@@ -299,7 +299,6 @@ def plot_script_similarity_heatmap(
         fig.savefig(output_path, dpi=150, bbox_inches="tight")
     return fig
 
-
 # ─────────────────────────────────────────────
 # Report Generator
 # ─────────────────────────────────────────────
