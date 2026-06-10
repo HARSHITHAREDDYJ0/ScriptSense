@@ -257,7 +257,7 @@ with gr.Blocks(
     with gr.Tabs():
 
         # ── Tab 1: Single Text ────────────────────────────────────────────────
-        with gr.Tab("🔍 Identify Language"):
+        with gr.Tab(" Identify Language"):
             with gr.Row():
                 with gr.Column(scale=1):
                     text_input = gr.Textbox(

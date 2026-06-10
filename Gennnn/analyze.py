@@ -124,7 +124,7 @@ def analyze_text(text: str, model, show_script: bool = True):
 
     if show_script:
         sa = analyzer.analyze(text)
-        script_table = Table(title="📊 Script Analysis", box=box.SIMPLE)
+        script_table = Table(title=" Script Analysis", box=box.SIMPLE)
         script_table.add_column("Metric")
         script_table.add_column("Value")
 
@@ -132,7 +132,7 @@ def analyze_text(text: str, model, show_script: bool = True):
             ("Total chars", f"{sa.total_chars:,}"),
             ("Alphabetic chars", f"{sa.alpha_chars:,} ({sa.alpha_chars/max(sa.total_chars,1):.1%})"),
             ("Dominant script", f"{sa.dominant_script} ({sa.dominant_script_ratio:.1%})"),
-            ("Mixed script?", "⚠️ YES" if sa.is_mixed_script else "✅ No"),
+            ("Mixed script?", " YES" if sa.is_mixed_script else "No"),
             ("Script transitions", str(sa.script_transitions)),
             ("Char entropy", f"{sa.char_entropy:.3f} bits"),
             ("Unique chars", str(sa.unique_chars)),

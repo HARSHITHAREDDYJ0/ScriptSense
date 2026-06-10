@@ -1,11 +1,11 @@
-# 🔤 Language Identification & Script Analysis System
+# Language Identification & Script Analysis System
 ### Powered by AI4Bharat/Pralekha Dataset
 
 An advanced NLP pipeline for **language identification**, **script recognition**, and **linguistic analysis** across 12 Indic languages + English using the [Pralekha dataset](https://huggingface.co/datasets/ai4bharat/Pralekha).
 
 ---
 
-## 📦 Languages Supported
+## Languages Supported
 
 | Language | Script | Code |
 |----------|--------|------|
@@ -24,7 +24,7 @@ An advanced NLP pipeline for **language identification**, **script recognition**
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 lang_id_project/
@@ -40,7 +40,7 @@ lang_id_project/
 └── scripts/            # CLI tools
 ```
 
-## 🚀 Quick Start
+## Quick Start
 
 ```bash
 pip install -r requirements.txt
@@ -58,7 +58,7 @@ python scripts/analyze.py --text "नमस्ते दुनिया"
 python scripts/evaluate.py --split test
 ```
 
-## 📊 Features
+## Features
 
 - **Multi-model ensemble**: Character n-gram + Transformer + Unicode heuristics
 - **Script-level analysis**: Unicode block detection, script mixing, directionality
@@ -66,3 +66,18 @@ python scripts/evaluate.py --split test
 - **FastAPI REST API**: Production-ready with async support
 - **Detailed metrics**: Per-language F1, confusion matrix, confidence calibration
 - **Interactive dashboard**: Gradio-powered web UI
+
+---
+
+## Future Enhancements
+
+- Add support for code-mixed language identification (e.g., Hinglish, Tanglish).
+- Expand coverage to additional Indian languages and dialects.
+- Integrate speech-to-text preprocessing for spoken language analysis.
+- Support real-time inference through WebSocket endpoints.
+- Add model quantization for edge-device deployment.
+- Implement active learning for continuous dataset improvement.
+- Provide explainable AI outputs for prediction transparency.
+- Add OCR integration for image-based language detection.
+- Benchmark against additional multilingual transformer models.
+- Deploy a public demo with monitoring and analytics dashboards.
